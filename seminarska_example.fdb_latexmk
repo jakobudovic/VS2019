@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1580424497 "/home/jakob/Documents/git/VS2019/seminarska_example.tex" "/home/jakob/Documents/git/VS2019/seminarska_example.pdf" "seminarska_example" 1580424497
+["pdflatex"] 1597997485 "/home/jakob/Documents/git/VS2019/seminarska_example.tex" "/home/jakob/Documents/git/VS2019/seminarska_example.pdf" "seminarska_example" 1597997485
   "/etc/texmf/web2c/texmf.cnf" 1580200402 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jakob/Documents/git/VS2019/seminarska_example.aux" 1580424497 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/jakob/Documents/git/VS2019/seminarska_example.tex" 1580424496 5077 e148109d0a6ae9e5ea56c139ca27f649 ""
+  "/home/jakob/Documents/git/VS2019/seminarska_example.aux" 1597997485 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/jakob/Documents/git/VS2019/seminarska_example.tex" 1597997483 5685 a9cdede2b77997e363147bf0914399ad ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -112,12 +112,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1580203114 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1580203136 4126270 29fc58f9a7d50b9ce3b8931f0c5e8d51 ""
   "seminarska_example.aux" 0 -1 0 ""
-  "seminarska_example.tex" 1580424496 5077 e148109d0a6ae9e5ea56c139ca27f649 ""
+  "seminarska_example.tex" 1597997483 5685 a9cdede2b77997e363147bf0914399ad ""
   "slika-primer.png" 0 -1 0 ""
   (generated)
-  "seminarska_example.out"
   "/home/jakob/Documents/git/VS2019/seminarska_example.log"
   "seminarska_example.pdf"
+  "/home/jakob/Documents/git/VS2019/seminarska_example.pdf"
   "seminarska_example.aux"
   "seminarska_example.log"
-  "/home/jakob/Documents/git/VS2019/seminarska_example.pdf"
+  "seminarska_example.out"

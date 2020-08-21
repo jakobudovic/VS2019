@@ -53,20 +53,20 @@ urlcolor=cyan                   % color of external links
 
 Uvod naj bi imel približno naslednjo strukturo:
 \begin{itemize}
-\item vaba/motivacija (zakaj je tema zanimiva - najbolje skozi
-      kakšen provokativen primer)
-\item problem/cilj (le ta mora biti vedno jasno opisan)
-\item podobne raziskave (ki postavijo Tvoje delo v kontekst)
-\item kratka organizacija po poglavijih/razdelkih 
+      \item vaba/motivacija (zakaj je tema zanimiva - najbolje skozi
+            kakšen provokativen primer)
+      \item problem/cilj (le ta mora biti vedno jasno opisan)
+      \item podobne raziskave (ki postavijo Tvoje delo v kontekst)
+      \item kratka organizacija po poglavijih/razdelkih
 \end{itemize}
 %
-Imena poglavij 
+Imena poglavij
 \begin{enumerate}
-\item Uvod
-\item Podatki
-\item Izračuni in rezultati
-\item Zaključek
-\item Literatura (no tu ne sme pisati ``References'')
+      \item Uvod
+      \item Podatki
+      \item Izračuni in rezultati
+      \item Zaključek
+      \item Literatura (no tu ne sme pisati ``References'')
 \end{enumerate}
 pa seveda priredite glede na svojo vsebino.
 
@@ -83,34 +83,34 @@ kakšen način, kje in kako.
 
 \section{Izračuni in rezultati}
 
-Rezultate lahko prikažeš tudi v tabeli~\ref{tab1} ali sliki~\ref{slika1}. 
-Vse slike in tabele, ki jih vključiš v poročilo, morajo biti navedene v 
+Rezultate lahko prikažeš tudi v tabeli~\ref{tab1} ali sliki~\ref{slika1}.
+Vse slike in tabele, ki jih vključiš v poročilo, morajo biti navedene v
 besedilu oziroma se moraš na njih sklicati.
 
 \begin{figure}[htbp]
-\begin{center}
-\includegraphics[scale=0.5]{slika-primer.png} % pdf}
-\caption{Vsako sliko opremi s podnapisom, ki pove, kaj slika prikazuje.}
-\label{slika1}
-\end{center}
+      \begin{center}
+            \includegraphics[scale=0.5]{slika-primer.png} % pdf}
+            \caption{Vsako sliko opremi s podnapisom, ki pove, kaj slika prikazuje.}
+            \label{slika1}
+      \end{center}
 \end{figure}
 
 Odstavke pri pisanju poročila v LaTeX-u ločiš tako, da pred novim
 odstavkom pustiš prazno vrstico.
 \begin{table}[htbp]
-\caption{Atributi in njihove zaloge vrednosti.}
-\label{tab1}
-\begin{center}
-\begin{tabular}{llp{3cm}}
-\hline
-ime spremenljivke & definicijsko območje & opis \\
-\hline
-cena & [0, 500] & cena izdelka v EUR\\
-teža & [1, 1000] & teža izdelka v dag \\
-kakovost & [slaba|srednja|dobra] & kakovost izdelka \\
-\hline
-\end{tabular}
-\end{center}
+      \caption{Atributi in njihove zaloge vrednosti.}
+      \label{tab1}
+      \begin{center}
+            \begin{tabular}{llp{3cm}}
+                  \hline
+                  ime spremenljivke & definicijsko območje  & opis               \\
+                  \hline
+                  cena              & [0, 500]              & cena izdelka v EUR \\
+                  teža              & [1, 1000]             & teža izdelka v dag \\
+                  kakovost          & [slaba|srednja|dobra] & kakovost izdelka   \\
+                  \hline
+            \end{tabular}
+      \end{center}
 \end{table}
 
 LaTeX ti omogoča tudi zelo enostaven in lep izris enačb tako znotraj vrstice
@@ -131,32 +131,32 @@ dovolj - polna imena so odveč), a še nekaj člankov (če si me vzel
 resno glede konteksta - saj verjetno ne delaš prvi tovrstno raziskavo).
 
 \begin{footnotesize}
-\begin{thebibliography}{10}
-\bibitem{g93}
-C.~D. Godsil.
-\newblock {\em Algebraic combinatorics}.
-\newblock Chapman and Hall Mathematics Series. Chap\-man \& Hall, New York,
-1993.
+      \begin{thebibliography}{10}
+            \bibitem{g93}
+            C.~D. Godsil.
+            \newblock {\em Algebraic combinatorics}.
+            \newblock Chapman and Hall Mathematics Series. Chap\-man \& Hall, New York,
+            1993.
 
-\bibitem{gr01}
-C.~D. Godsil and G.~Royle.
-\newblock {\em Algebraic graph theory}, volume 207 of {\em Graduate Texts in
-Mathematics}.
-\newblock Springer-Verlag, New York, 2001.
+            \bibitem{gr01}
+            C.~D. Godsil and G.~Royle.
+            \newblock {\em Algebraic graph theory}, volume 207 of {\em Graduate Texts in
+                        Mathematics}.
+            \newblock Springer-Verlag, New York, 2001.
 
 
-\bibitem{j95}
-A.~Jurišić.
-\newblock {\em Antipodal covers}.
-\newblock PhD thesis, University of Waterloo (Canada), 1995.
+            \bibitem{j95}
+            A.~Jurišić.
+            \newblock {\em Antipodal covers}.
+            \newblock PhD thesis, University of Waterloo (Canada), 1995.
 
-\bibitem{jv12}
-A.~Jurišić and J.~Vidali.
-\newblock Extremal $1$-codes in distance-regular graphs of dia\-meter~$3$.
-\newblock {\em Des. Codes Cryptogr.}, 65(1--2):29--47, 2012.
-\newblock \doi{10.1007/s10623-012-9651-0}.
+            \bibitem{jv12}
+            A.~Jurišić and J.~Vidali.
+            \newblock Extremal $1$-codes in distance-regular graphs of dia\-meter~$3$.
+            \newblock {\em Des. Codes Cryptogr.}, 65(1--2):29--47, 2012.
+            \newblock \doi{10.1007/s10623-012-9651-0}.
 
-\end{thebibliography}
+      \end{thebibliography}
 \end{footnotesize}
 
 \end{document}
